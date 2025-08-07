@@ -12,16 +12,23 @@
 				<!-- Header -->
 				<header id="header">
 					<a href=".../ko/index.html"></a>
-					<h1 id="logo"><a href="ko_index.html"><img src="images/labs_w_small.png" alt="" class="center-image" style="margin-top: 15px; width: 100%; max-width: 150px; height: auto;" /></h1>
+					<h1 id="logo"><a href="ko_index.html"><img src="images/labs_w_small.png" alt="" class="center-image" style="margin-top: 15px; width: 100%; max-width: 150px; height: auto;" /></a></h1>
 
 					<nav id="nav"> 
 						<ul>
+                            <li>
+							<div id="language-switcher">
+							<button onclick="changeLanguage('en')" style ="vertical-align: middle; width: 60px; height: 25px;">English</button>
+							<button onclick="changeLanguage('ko')" style ="vertical-align: middle; width: 60px; height: 25px;">한국어</button>
+							</div>
+							</li>
 							<li><a href="ko_index.html">Home</a></li>
 							<li>
 								<a href="#">About us</a>
 									<ul>	
 									<li><a href="ko_vision.html">Vision</a></li>
 									<li><a href="ko_leadership.html">Leadership</a></li>
+                                    <li><a href="ko_history.html">History</a></li>
 									</ul>
 							</li>
 							<li>
@@ -42,8 +49,8 @@
 							<li>
 								<a href="#">Contact</a>
 							<ul>
-							<li><a href="ko_history.html">History</a></li>
 							<li><a href="ko_contact.html">Contact</a></li>
+                            <li><a href="ko_office.html">Office</a></li>
 								</ul>
 							</li>
 					</nav>
@@ -54,7 +61,7 @@
             <div class="container">
                 <header class="major">
                     <h2>Leadership</h2>
-                    <p></p>
+                    <p>반도체 산업의 패러다임을 바꿉니다.</p>
                 </header>
 
                 <!-- Content -->
@@ -182,5 +189,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/language-switcher.js"></script>
 </body>
 </html>

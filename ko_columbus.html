@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>History</title>
+		<title>COLUMBUS</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,16 +20,24 @@
 				<!-- Header -->
 				<header id="header">
 					<a href=".../ko/index.html"></a>
-					<h1 id="logo"><a href="ko_index.html"><img src="images/labs_w_small.png" alt="" class="center-image" style="margin-top: 15px; width: 100%; max-width: 150px; height: auto;" /></h1>
+					<h1 id="logo"><a href="ko_index.html"><img src="images/labs_w_small.png" alt="" class="center-image" style="margin-top: 15px; width: 100%; max-width: 150px; height: auto;" /></a></h1>
 
 					<nav id="nav"> 
+						
 						<ul>
+							<li>
+						<div id="language-switcher">
+						<button onclick="changeLanguage('en')" style ="vertical-align: middle; width: 60px; height: 25px;">English</button>
+						<button onclick="changeLanguage('ko')" style ="vertical-align: middle; width: 60px; height: 25px;">한국어</button>
+						</div>
+					</li>
 							<li><a href="ko_index.html">Home</a></li>
 							<li>
 								<a href="#">About us</a>
 									<ul>	
 									<li><a href="ko_vision.html">Vision</a></li>
 									<li><a href="ko_leadership.html">Leadership</a></li>
+									<li><a href="ko_history.html">History</a></li>
 									</ul>
 							</li>
 							<li>
@@ -49,8 +57,8 @@
 							<li>
 								<a href="#">Contact</a>
 							<ul>
-							<li><a href="ko_history.html">History</a></li>
 							<li><a href="ko_contact.html">Contact</a></li>
+							<li><a href="ko_office.html">Office</a></li>
 								</ul>
 							</li>
 					</nav>
@@ -102,7 +110,7 @@
 <br>
 
 <br>
-<img src="images/c1.jpg" style="width: 100%; max-width: 1000px; height: auto;" alt=""  class="center-image" /> 
+<img src="images/Columbus1.png" style="width: 100%; max-width: 1000px; height: auto;" alt=""  class="center-image" /> 
 
 
 							<section id="content">
@@ -133,7 +141,7 @@ Columbus 1.0.0은 ALD Kinetics, Growth Mechanism, Langmuir Model 및 precursor p
 기존 장비에서는 ALD 공정에서 박막이 사이클별로 적층되는 그래프와 공정 중 박막에 따라 이상을 검출할 수는 있었고, 기존 장비는 센서로 이상을 감지하는 데 문제가 있다는 것을 알았지만 그 근원을 찾을 수 없었습니다. 또한 두께 모니터링, C/M/E Skew, absolutness 감지 웨이퍼 매핑, 전기적 특성, 굴절률, 저항 캡 등을 식별하는데 불가능했습니다.
 </p>
 
-<img src="images/result.jpg" style="width: 100%; max-width: 700px; height: auto;" alt=""  class="center-image" /> 
+<img src="images/Columbus2.png" style="width: 100%; max-width: 700px; height: auto;" alt=""  class="center-image" /> 
 <p><br>
 
 AI 임베디드 장비를 통해 이전에는 불가능했던 thickness monitoring, C/M/E skew, absoluteness detection, wafer mapping 등이 가능해졌습니다. 또한 electrical propert, sheet resistance 등을 검출할 수 있는 장비를 개발하고 굴절률 등을 해결할 수 있는 알고리즘을 고도화하고 있습니다.
@@ -160,6 +168,7 @@ AI 임베디드 장비를 통해 이전에는 불가능했던 thickness monitori
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/language-switcher.js"></script>
 
 	</body>
 </html>

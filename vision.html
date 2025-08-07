@@ -17,15 +17,22 @@
 				<!-- Header -->
 				<header id="header">
 					<a href="index.html"></a>
-					<h1 id="logo"><a href="index.html"><img src="images/HEX Labslogo.jpg"  width="250" height=45" alt=""  class="center-image" /></h1>
+					<h1 id="logo"><a href="index.html"><img src="images/HEX Labslogo.jpg"  width="250" height=45" alt=""  class="center-image" /></a></h1>
 					<nav id="nav"> 
 						<ul>
+							<li>
+							<div id="language-switcher">
+							<button onclick="changeLanguage('en')" style ="vertical-align: middle; width: 60px; height: 25px;">English</button>
+							<button onclick="changeLanguage('ko')" style ="vertical-align: middle; width: 60px; height: 25px;">한국어</button>
+							</div>
+							</li>
 							<li><a href="index.html">Home</a></li>
 							<li>
 								<a href="#">About us</a>
 									<ul>	
 									<li><a href="vision.html">Vision</a></li>
 									<li><a href="leadership.html">Leadership</a></li>
+                                    <li><a href="history.html">History</a></li>
 									</ul>
 							</li>
 							<li>
@@ -34,6 +41,7 @@
 									<li><a href="gaiya.html">GAIYA</a></li>
 									<li><a href="columbus.html">COLUMBUS</a></li>
 								</ul>
+
 							</li>
 							<li>
 								<a href="#">Board</a>
@@ -41,12 +49,12 @@
 									<li><a href="press.html"><strong>Press coverage</strong></a></li>
 								</ul>
 
-							</li>		
+							</li>									
 							<li>
 								<a href="#">Contact</a>
 							<ul>
-							<li><a href="history.html">History</a></li>
 							<li><a href="contact.html">Contact</a></li>
+							<li><a href="office.html">Office</a></li>
 								</ul>
 							</li>
 					</nav>
@@ -89,7 +97,7 @@
 <br><h3><strong>Vision in semiconductor industry</strong></h3>
 <p> We will provide “Semiconductor prediction A.I. platform” for all semiconductor value chain. Over 1,500 Global Semiconductor companies are our customers and partners.</p><br>
 
-<img src="images/vision.jpg" style="width: 100%; max-width: 1000px; height: auto;" alt="Vision Image" class="vision"/>
+<img src="images/Vision.png" style="width: 100%; max-width: 1000px; height: auto;" alt="Vision Image" class="vision"/>
 
 
 					</div>
@@ -114,6 +122,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/language-switcher.js"></script>
 	</body>
 </html>

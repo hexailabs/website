@@ -12,15 +12,22 @@
 			<!-- Header -->
 				<header id="header">
 					<a href="index.html"></a>
-					<h1 id="logo"><a href="index.html"><img src="images/HEX Labslogo.jpg"  width="250" height=45" alt=""  class="center-image" /></h1>
+					<h1 id="logo"><a href="index.html"><img src="images/HEX Labslogo.jpg"  width="250" height=45" alt=""  class="center-image" /></a></h1>
 					<nav id="nav"> 
 						<ul>
+                            <li>
+							<div id="language-switcher">
+							<button onclick="changeLanguage('en')" style ="vertical-align: middle; width: 60px; height: 25px;">English</button>
+							<button onclick="changeLanguage('ko')" style ="vertical-align: middle; width: 60px; height: 25px;">한국어</button>
+							</div>
+							</li>
 							<li><a href="index.html">Home</a></li>
 							<li>
 								<a href="#">About us</a>
 									<ul>	
 									<li><a href="vision.html">Vision</a></li>
 									<li><a href="leadership.html">Leadership</a></li>
+                                    <li><a href="history.html">History</a></li>
 									</ul>
 							</li>
 							<li>
@@ -29,6 +36,7 @@
 									<li><a href="gaiya.html">GAIYA</a></li>
 									<li><a href="columbus.html">COLUMBUS</a></li>
 								</ul>
+
 							</li>
 							<li>
 								<a href="#">Board</a>
@@ -40,8 +48,8 @@
 							<li>
 								<a href="#">Contact</a>
 							<ul>
-							<li><a href="history.html">History</a></li>
 							<li><a href="contact.html">Contact</a></li>
+							<li><a href="office.html">Office</a></li>
 								</ul>
 							</li>
 					</nav>
@@ -181,5 +189,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/language-switcher.js"></script>
 </body>
 </html>

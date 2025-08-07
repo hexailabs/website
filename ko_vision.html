@@ -17,15 +17,22 @@
 				<!-- Header -->
 				<header id="header">
 					<a href=".../ko/index.html"></a>
-					<h1 id="logo"><a href="ko_index.html"><img src="images/HEX Labslogo.jpg"  width="250" height=45" alt=""  class="center-image" /></h1>
+					<h1 id="logo"><a href="ko_index.html"><img src="images/HEX Labslogo.jpg"  width="250" height=45" alt=""  class="center-image" /></a></h1>
 					<nav id="nav"> 
 						<ul>
+							<li>
+							<div id="language-switcher">
+							<button onclick="changeLanguage('en')" style ="vertical-align: middle; width: 60px; height: 25px;">English</button>
+							<button onclick="changeLanguage('ko')" style ="vertical-align: middle; width: 60px; height: 25px;">한국어</button>
+							</div>
+							</li>
 							<li><a href="ko_index.html">Home</a></li>
 							<li>
 								<a href="#">About us</a>
 									<ul>	
 									<li><a href="ko_vision.html">Vision</a></li>
 									<li><a href="ko_leadership.html">Leadership</a></li>
+									<li><a href="ko_history.html">History</a></li>
 									</ul>
 							</li>
 							<li>
@@ -46,8 +53,8 @@
 							<li>
 								<a href="#">Contact</a>
 							<ul>
-							<li><a href="ko_history.html">History</a></li>
 							<li><a href="ko_contact.html">Contact</a></li>
+							<li><a href="ko_office.html">Office</a></li>
 								</ul>
 							</li>
 					</nav>
@@ -88,7 +95,7 @@
 <br><h3><strong>반도체 산업에서 HEX A.I. LABS의 비전</strong></h3>
 <p>"인공지능 기반 반도체 예측 플랫폼"을 모든 반도체 Value Chain에 적용하겠습니다. 1,500개 이상의 글로벌 회사가 우리의 고객이자 파트너입니다.</p><br>
 
-<img src="images/vision.jpg" style="width: 100%; max-width: 1000px; height: auto;" alt="Vision Image" class="vision"/>
+<img src="images/Vision.png" style="width: 100%; max-width: 1000px; height: auto;" alt="Vision Image" class="vision"/>
 
 
 					</div>
@@ -113,6 +120,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/language-switcher.js"></script>
 
 	</body>
 </html>
